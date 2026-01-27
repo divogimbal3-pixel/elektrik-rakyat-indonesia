@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap:Sitemap: https://dipokartono.github.io/elektrik-rakyat-indonesia/sitemap.xml
+Sitemap: https://divogimbal3-pixel.github.io/elektrik-rakyat-indonesia/sitemap.xml
