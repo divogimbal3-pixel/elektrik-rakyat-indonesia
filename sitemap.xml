@@ -2,8 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://divogimbal3-pixel.github.io/elektrik-rakyat-indonesia/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
+    <lastmod>2026-01-28</lastmod>
+    <priority>1.00</priority>
+  </url>
+  <url>
+    <loc>https://divogimbal3-pixel.github.io/elektrik-rakyat-indonesia/#about</loc>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://divogimbal3-pixel.github.io/elektrik-rakyat-indonesia/#services</loc>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://divogimbal3-pixel.github.io/elektrik-rakyat-indonesia/#gallery</loc>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://divogimbal3-pixel.github.io/elektrik-rakyat-indonesia/#testimonials</loc>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://divogimbal3-pixel.github.io/elektrik-rakyat-indonesia/#partners</loc>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://divogimbal3-pixel.github.io/elektrik-rakyat-indonesia/#contact</loc>
+    <priority>0.90</priority>
   </url>
 </urlset>
-
