@@ -93,17 +93,59 @@
 </section>
 
 <!-- GALLERY -->
-<section class="py-20 bg-white fade">
+<section id="gallery" class="bg-white py-20 fade-in">
   <div class="max-w-7xl mx-auto px-4">
-    <h3 class="text-3xl font-bold text-center mb-12">Galeri Proyek</h3>
-    <div class="grid md:grid-cols-4 gap-6">
-      <img src="images/motor-listrik.jpg" class="rounded-xl shadow">
-      <img src="images/mobil-listrik.jpg" class="rounded-xl shadow">
-      <img src="images/ketingting-listrik.jpg" class="rounded-xl shadow">
-      <img src="images/jetski-listrik.jpg" class="rounded-xl shadow">
+    <h2 class="text-3xl font-bold mb-12 text-center">Galeri Proyek ERI</h2>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+      
+      <figure class="gallery-card">
+        <img src="images/motor-listrik.jpg" alt="Motor listrik hasil konversi ERI">
+        <figcaption>Motor Listrik Konversi</figcaption>
+      </figure>
+
+      <figure class="gallery-card">
+        <img src="images/mobil-listrik.jpg" alt="Mobil listrik rakyat ERI">
+        <figcaption>Mobil Listrik Rakyat</figcaption>
+      </figure>
+
+      <figure class="gallery-card">
+        <img src="images/ketingting-listrik.jpg" alt="Mesin ketingting listrik ERI">
+        <figcaption>Mesin Ketingting Listrik</figcaption>
+      </figure>
+
+      <figure class="gallery-card">
+        <img src="images/jetski-listrik.jpg" alt="Jetski listrik ERI">
+        <figcaption>Jetski Listrik</figcaption>
+      </figure>
+
     </div>
   </div>
 </section>
+
+<style>
+.gallery-card{
+  background:#f9fafb;
+  border-radius:16px;
+  overflow:hidden;
+  box-shadow:0 10px 25px rgba(0,0,0,.08);
+  transition:.3s;
+}
+.gallery-card img{
+  width:100%;
+  height:220px;
+  object-fit:cover;
+}
+.gallery-card figcaption{
+  padding:12px;
+  font-weight:600;
+  text-align:center;
+}
+.gallery-card:hover{
+  transform:scale(1.04);
+}
+</style>
+
 
 <!-- CONTACT -->
 <section class="bg-gray-100 py-20 fade">
